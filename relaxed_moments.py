@@ -53,11 +53,8 @@ def compute_mu2(C, p):
     mu2: (d, d)-shaped array, the relaxed second moment
   '''
   M = C.shape[0]-1
-
   As, Al, Ar = compute_A_matrices(M)
-
   Abar = (As@jnp.diag(p)@As.T + Ar@jnp.diag(p)@Ar.T + Al@jnp.diag(p)@Al.T) / 6
-
   mu2 = C.T@Abar@C
 
   return mu2

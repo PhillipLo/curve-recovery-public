@@ -39,7 +39,6 @@ def compute_sym_part(A):
 
   OUTPUTS:
     sym_part: d^n-shaped tensor Sym(A)
-
   '''
   n = A.ndim
   nfact = 0 # no jax.factorial, so use a hacky way of computing n!
@@ -166,7 +165,6 @@ def compute_m1hat(cloud):
 
   OUTPUTS:
     m1hat: (d,)-shaped array, empirical first moment.
-
   '''
   m1hat = jnp.mean(cloud, axis = 0)
   return m1hat

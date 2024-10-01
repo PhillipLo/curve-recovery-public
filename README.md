@@ -30,7 +30,7 @@ To install:
 ### Single Experiments
 
 To run a single experiment on matching a curve using our method of moments approach, run `python moment_matching_recovery_experiment.py`, which accepts the following command line arguments:
-* `--exp_name`: name to give the experiment
+* `--exp_name`: name to give the experiment, default `default_experiment`
 * `--seed`: integer for RNG seeding, default `88`
 * `--d`: ambient dimension of the curve, default `12`
 * `--M`: number of segments in the curve, default `8`

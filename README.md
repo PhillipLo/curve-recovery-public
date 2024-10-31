@@ -4,7 +4,7 @@ This is the GitHub repository for the paper [Method of Moments for Estimation of
 
 ## Installation
 
-The following instructions are for Unix/macOS only.
+The following instructions are for Ubuntu/macOS only.
 
 To install:
 * Clone the repository: `git clone https://github.com/PhillipLo/curve-recovery-public.git`.

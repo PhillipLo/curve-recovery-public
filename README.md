@@ -1,6 +1,6 @@
 # Method of Moments for Estimation of Noisy Curves
 
-This is the GitHub repository for the paper [arXiv link here]. It contains all the code needed to replicate the numerical results of the paper. 
+This is the GitHub repository for the paper [Method of Moments for Estimation of Noisy Curves](https://arxiv.org/abs/2410.23220). It contains all the code needed to replicate the numerical results of the paper. 
 
 ## Installation
 
